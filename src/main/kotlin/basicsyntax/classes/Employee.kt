@@ -44,8 +44,8 @@ class Employee(
         return Period.between(dateOfEmployment, LocalDate.now()).years
     }
 
-    fun addPaycheck(paycheck: Paycheck) {
-        paychecks.add(paycheck)
+    fun addPaycheck(payday: LocalDate) {
+        paychecks.add(Paycheck(payday, salary))
     }
 
     fun removePaycheck(paycheck: Paycheck) {
