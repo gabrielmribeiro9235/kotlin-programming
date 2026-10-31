@@ -56,7 +56,7 @@ class Employee(
         return paychecks.iterator()
     }
 
-    fun paychecks(): Stream<Paycheck> {
-        return paychecks.stream()
+    fun paychecks(): Sequence<Paycheck> {
+        return paychecks.asSequence()
     }
 }
