@@ -1,8 +1,8 @@
 package org.example.basicsyntax.classes
 
-import java.util.Date
+import java.time.LocalDate
 
 data class Paycheck(
-    val payday: Date,
+    val payday: LocalDate,
     val salary: Double
 )
