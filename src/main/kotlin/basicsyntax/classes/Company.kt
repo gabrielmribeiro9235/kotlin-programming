@@ -1,7 +1,6 @@
 package org.example.basicsyntax.classes
 
 import java.time.LocalDate
-import kotlin.streams.asSequence
 
 class Company {
     private val employees = mutableMapOf<String, Employee>()
