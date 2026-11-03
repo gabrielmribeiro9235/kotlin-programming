@@ -1,4 +1,4 @@
-package org.example.basicsyntax.classes
+package org.example.practice.beginner.classes
 
 import java.time.LocalDate
 

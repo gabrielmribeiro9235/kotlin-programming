@@ -1,8 +1,7 @@
-package org.example.basicsyntax.classes
+package org.example.practice.beginner.classes
 
 import java.time.LocalDate
 import java.time.Period
-import java.util.stream.Stream
 
 class Employee(
     val id: String,

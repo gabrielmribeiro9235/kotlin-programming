@@ -1,4 +1,4 @@
-package org.example.basicsyntax
+package org.example.practice.beginner
 
 fun hello() {
     println("Hello, World!")
